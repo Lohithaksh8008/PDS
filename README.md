@@ -1,17 +1,17 @@
 Exploratory Data Analysis
+_____________________________________________________________________________________________________________________________________________________________________
 This repository contains the work for exploring 2 datasets. Two datasets are explored through statistical summaries, correlation analysis, and visualizations.
 _____________________________________________________________________________________________________________________________________________________________________
-Repository Contents
-File	Description
-PDS_Assignment_1.ipynb	Main Jupyter notebook containing all analysis code
-StudentsPerformance.csv	Student exam scores dataset
-frailty_data.csv	Frailty and physical measurements dataset
-findings.md	Summary statistics and correlation findings for the frailty dataset
-V1_Gender_Boxplots.png	Math & Reading scores distribution by gender
-V2_TestPrep_Math.png	Math score distribution by test preparation course
-V3_Lunch_Performance.png	Average overall score by lunch type
-V4_Correlation_Heatmap.png	Correlation heatmap across all three exam subjects
-V5_Scatter_Trend_Enhanced.png	Math vs. Reading score scatter plot by test prep status
+Repository Contents                            File	Description
+1. PDS_Assignment_1.ipynb  ---	Main Jupyter notebook containing all analysis code
+2. StudentsPerformance.csv	--- Student exam scores dataset
+3. frailty_data.csv	        --- Frailty and physical measurements dataset
+4. findings.md	           --- Summary statistics and correlation findings for the frailty dataset
+5. V1_Gender_Boxplots.png  --- Math & Reading scores distribution by gender
+6. V2_TestPrep_Math.png	   --- Math score distribution by test preparation course
+7. V3_Lunch_Performance.png	--- Average overall score by lunch type
+8. V4_Correlation_Heatmap.png --- Correlation heatmap across all three exam subjects
+9. V5_Scatter_Trend_Enhanced.png --- Math vs. Reading score scatter plot by test prep status
 _____________________________________________________________________________________________________________________________________________________________________
 
 Datasets
@@ -22,13 +22,13 @@ Contains physical measurements for 20 individuals including height, weight, age,
 _____________________________________________________________________________________________________________________________________________________________________
 
 Key Findings
-Students Performance
+1. Students Performance
 •	Gender: Female students tend to score higher in reading and writing, while male students score slightly higher in math. Both groups show similar overall distributions (V1).
 •	Test Preparation: Students who completed a test prep course scored notably higher in math, with a higher median and tighter IQR compared to those with no preparation (V2).
 •	Lunch Type: Students with a standard lunch plan averaged ~71 overall, versus ~62 for those on free/reduced lunch — a meaningful gap suggesting socioeconomic influence on performance (V3).
 •	Subject Correlations: All three subjects are highly correlated. Reading and writing share the strongest relationship (r = 0.95), while math correlates at 0.82 with reading and 0.80 with writing (V4).
 •	Math vs. Reading by Test Prep: A strong positive linear trend exists between math and reading scores for both groups (R² ≈ 0.63–0.67). Students who completed test prep cluster toward higher scores (V5).
-Frailty Data
+2. Frailty Data
 •	Summary Statistics: Mean BMI was 19.68 (lean range), mean age was 32.5 years, and 40% of individuals were classified as frail.
 •	Grip Strength & Frailty: A moderate negative correlation of r = –0.476 was found between grip strength and frailty classification, indicating that lower grip strength is associated with higher likelihood of frailty.
 _____________________________________________________________________________________________________________________________________________________________________
@@ -43,6 +43,7 @@ How to Run
 _____________________________________________________________________________________________________________________________________________________________________
 
 Requirements
+
 •	Python 3.8+
 •	pandas
 •	numpy
