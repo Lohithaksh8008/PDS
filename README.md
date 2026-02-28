@@ -25,9 +25,10 @@ Key Findings
 1. Students Performance
 •	Gender: Female students tend to score higher in reading and writing, while male students score slightly higher in math. Both groups show similar overall distributions (V1).
 •	Test Preparation: Students who completed a test prep course scored notably higher in math, with a higher median and tighter IQR compared to those with no preparation (V2).
-•	Lunch Type: Students with a standard lunch plan averaged ~71 overall, versus ~62 for those on free/reduced lunch — a meaningful gap suggesting socioeconomic influence on performance (V3).
+•	Lunch Type: Students with a standard lunch plan averaged ~71 overall, versus ~62 for those on free/reduced lunch a meaningful gap suggesting socioeconomic influence on performance (V3).
 •	Subject Correlations: All three subjects are highly correlated. Reading and writing share the strongest relationship (r = 0.95), while math correlates at 0.82 with reading and 0.80 with writing (V4).
 •	Math vs. Reading by Test Prep: A strong positive linear trend exists between math and reading scores for both groups (R² ≈ 0.63–0.67). Students who completed test prep cluster toward higher scores (V5).
+
 2. Frailty Data
 •	Summary Statistics: Mean BMI was 19.68 (lean range), mean age was 32.5 years, and 40% of individuals were classified as frail.
 •	Grip Strength & Frailty: A moderate negative correlation of r = –0.476 was found between grip strength and frailty classification, indicating that lower grip strength is associated with higher likelihood of frailty.
